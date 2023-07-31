@@ -1,23 +1,28 @@
-<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.fairyfromalfeya.intellijrefoldplugin</id>
-    <name>intellij-refold-plugin Template</name>
-    <vendor>fairyfromalfeya</vendor>
+    <id>com.fairyfromalfeya.intellijrefoldplugin</id>
+    <name>ReFold</name>
+    <vendor>FairyFromAlfeya</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.fairyfromalfeya.intellijrefoldplugin.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <toolWindow
+            factoryClass="com.fairyfromalfeya.intellijrefoldplugin.toolWindow.MyToolWindowFactory"
+            id="MyToolWindow"
+        />
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.fairyfromalfeya.intellijrefoldplugin.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
+        <listener
+            class="com.fairyfromalfeya.intellijrefoldplugin.listeners.MyApplicationActivationListener"
+            topic="com.intellij.openapi.application.ApplicationActivationListener"
+        />
     </applicationListeners>
     
     <actions>
-        <action class="com.github.fairyfromalfeya.intellijrefoldplugin.MyAction" id="MyAction">
+        <action class="com.fairyfromalfeya.intellijrefoldplugin.MyAction" id="MyAction">
             <add-to-group group-id="StructureViewPopupMenu" />
         </action>
     </actions>

@@ -1,4 +1,4 @@
-package com.github.fairyfromalfeya.intellijrefoldplugin
+package com.fairyfromalfeya.intellijrefoldplugin
 
 import com.intellij.openapi.actionSystem.AnAction
 import com.intellij.openapi.actionSystem.AnActionEvent

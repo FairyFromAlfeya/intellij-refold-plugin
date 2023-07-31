@@ -1,4 +1,4 @@
-package com.github.fairyfromalfeya.intellijrefoldplugin.listeners
+package com.fairyfromalfeya.intellijrefoldplugin.listeners
 
 import com.intellij.openapi.application.ApplicationActivationListener
 import com.intellij.openapi.diagnostic.thisLogger

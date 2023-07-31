@@ -1,9 +1,9 @@
-package com.github.fairyfromalfeya.intellijrefoldplugin.services
+package com.fairyfromalfeya.intellijrefoldplugin.services
 
 import com.intellij.openapi.components.Service
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project
-import com.github.fairyfromalfeya.intellijrefoldplugin.MyBundle
+import com.fairyfromalfeya.intellijrefoldplugin.MyBundle
 
 @Service(Service.Level.PROJECT)
 class MyProjectService(project: Project) {

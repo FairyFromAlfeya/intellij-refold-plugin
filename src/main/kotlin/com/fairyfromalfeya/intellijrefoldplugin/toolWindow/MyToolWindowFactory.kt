@@ -1,4 +1,4 @@
-package com.github.fairyfromalfeya.intellijrefoldplugin.toolWindow
+package com.fairyfromalfeya.intellijrefoldplugin.toolWindow
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.diagnostic.thisLogger
@@ -8,8 +8,8 @@ import com.intellij.openapi.wm.ToolWindowFactory
 import com.intellij.ui.components.JBLabel
 import com.intellij.ui.components.JBPanel
 import com.intellij.ui.content.ContentFactory
-import com.github.fairyfromalfeya.intellijrefoldplugin.MyBundle
-import com.github.fairyfromalfeya.intellijrefoldplugin.services.MyProjectService
+import com.fairyfromalfeya.intellijrefoldplugin.MyBundle
+import com.fairyfromalfeya.intellijrefoldplugin.services.MyProjectService
 import javax.swing.JButton
 
 

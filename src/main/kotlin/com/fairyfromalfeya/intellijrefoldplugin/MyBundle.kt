@@ -1,4 +1,4 @@
-package com.github.fairyfromalfeya.intellijrefoldplugin
+package com.fairyfromalfeya.intellijrefoldplugin
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls
